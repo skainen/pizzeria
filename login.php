@@ -19,8 +19,6 @@ $products = $_SESSION['products'];
         // removes backslashes
         $email= stripslashes($_REQUEST['email']);    // removes backslashes
         $email = mysqli_real_escape_string($con, $email);
-       /* $kayttajaID = stripslashes($_REQUEST['kayttajaID']);    // removes backslashes
-        $kayttajaID = mysqli_real_escape_string($con, $kayttajaID);*/
         $password = stripslashes($_REQUEST['password']);
         $password = mysqli_real_escape_string($con, $password);
         // Check user is exist in the database
@@ -94,12 +92,7 @@ $products = $_SESSION['products'];
       <div class="btnK">
         <button type="button" id="signinBtn">Kirjaudu sisään</button>
            </div>
-
-            <!-- Napit jotka lähettää tiedot tietokantaan -->
-          <!-- <div class="submit-btnR">
-            <button type="submit" id="signupSubmit">Rekisteröidy</button>
-          </div>-->
-
+            
             <div class="submit-btnK">
             <button type="submit" id="signinSubmit">Kirjaudu Sisään</button>
 </div>
