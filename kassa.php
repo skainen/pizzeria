@@ -223,16 +223,12 @@ if ($result->num_rows > 0) {
   <h2>Maksutapa</h2>
   <br><br>
     <div class="icon-container">
-    <!--<button type="button" onclick="toggleCardinfo()"><i class="fa-regular fa-credit-card"><p>Visa/Mastercard</p></i></button>-->
     <label class="container"><i class="fa-solid fa-building-columns"><p>Pankki</p></i>
     <input type="radio" name="radio" id="clearRadio">
-    <!--<span class="checkmark"></span>-->
   </label>
   <label class="container"><i class="fa-solid fa-money-bill-1-wave"><p>Käteinen</p></i>
     <input type="radio" name="radio" id="clearRadio">
-    <!--<span class="checkmark"></span>-->
   </label>
-  <!--<button onclick="clearRadioButtons()">Tyhjennä valinta</button>-->
 
 <script>
   function clearRadioButtons() {
@@ -309,12 +305,6 @@ if ($result->num_rows > 0) {
     }
     document.addEventListener("DOMContentLoaded", init);
   </script>
-
-
-    <!-- <div class="submit">
-        <input type="submit" name="tilaa" value="Tee tilaus" id="form_button" />
-    </div>-->
-
 
     <button type="submit" name="submit">Tilaa</button>
 
