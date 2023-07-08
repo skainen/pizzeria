@@ -30,7 +30,6 @@ $products = $_SESSION['products'];
         $password = mysqli_real_escape_string($con, $password);
         $osoite    = stripslashes($_REQUEST['osoite']);
         $osoite  = mysqli_real_escape_string($con, $osoite);
-       /* $create_datetime = date("Y-m-d H:i:s"); */
         $query    = "INSERT into `Kayttaja` (etunimi, sukunimi, puhelin, email, password, osoite)
                      VALUES ('$etunimi', '$sukunimi', '$puhelin', '$email', '$password', '$osoite')";   // '" . md5($password) . "'"
         $result   = mysqli_query($con, $query);
