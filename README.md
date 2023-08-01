@@ -1,4 +1,4 @@
-# pizzeria
+# Pizzeria
 HTML/CSS/PHP/JavaScript/MySQL
 
 I was the project leader for a group working on the development of a website and software for a restaurant. Additionally, we created a software solution for the restaurant side using C# in Visual Studio. While I primarily focused on the website development, I won't be including the software in my examples.
